@@ -6,6 +6,7 @@
 > 使用方法: 
 > 1. PPT截图保存在csdn的blog中
 > 2. 文本文件记录在txt文件中(注意格式)
+> 3. github上传命令: `git add . && git commit -m "update readme.md" && git push -u origin master`
 
 ```
 Linux马哥教育30期
