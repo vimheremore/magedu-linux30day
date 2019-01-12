@@ -1,1 +1,3 @@
-whatis
+history
+    echo $HISTSIZE 查看history记录的条数
+        cat /etc/profile 修改HISTSIZE变量大小
