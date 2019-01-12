@@ -1,3 +1,24 @@
-history
-    echo $HISTSIZE 查看history记录的条数
-        cat /etc/profile 修改HISTSIZE变量大小
+    history
+        echo $HISTSIZE 查看history记录的条数
+            cat /etc/profile 修改HISTSIZE变量大小
+        !string 重复前一个以"string"开头的命令
+        !?string 重复前一个包含string的命令
+        !string:p 仅打印命令历史,而不执行
+        !$:p 打印输出
+
+--------------------------------
+获得帮助
+    - whatis
+        - 示例: whatis rm;
+        - CentOS6 makewhatis | CentOS7 mandb
+        - 示例: whatis cal 或 man -f cal
+    - help COMMAND
+命令帮助
+    - 内部命令:
+        - help COMMAND
+        - man bash
+    - 外部命令:
+        - COMMAND --help;COMMAND -help
+        - 
+
+
